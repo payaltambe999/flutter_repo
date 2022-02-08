@@ -10,15 +10,9 @@ void main()
         backgroundColor : Colors.red[600],
       ),
       body : Center(
-          child : Text(
-          'Hello Flutter Learining is started',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'IndieFlower'
-          ),),
+          child : Image(
+            image: AssetImage('assets/image4.jpg'),
+            ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
@@ -26,7 +20,24 @@ void main()
         backgroundColor: Colors.red[600],)
       ),
   ),
-
   );
 }
+
+
+///This code is for fontstlye
+
+/*
+  body : Center(
+                child : Text(
+                'Hello Flutter Learining is started',
+                style: TextStyle(
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 2.0,
+                  color: Colors.grey[600],
+                  fontFamily: 'IndieFlower'
+                ),),
+            ),
+
+*/
 
