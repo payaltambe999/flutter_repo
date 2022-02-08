@@ -10,9 +10,11 @@ void main()
         backgroundColor : Colors.red[600],
       ),
       body : Center(
-          child : Image(
-            image: AssetImage('assets/image4.jpg'),
-            ),
+          child : Icon(
+            Icons.airport_shuttle,
+            color: Colors.lightBlueAccent,
+            size: 70.0,
+          ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
@@ -23,6 +25,15 @@ void main()
   );
 }
 
+
+/*
+body : Center(
+          child : Image(
+            image: AssetImage('assets/image4.jpg'),
+            ),
+      ),
+
+*/
 
 ///This code is for fontstlye
 
