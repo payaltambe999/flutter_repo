@@ -10,10 +10,13 @@ void main()
         backgroundColor : Colors.red[600],
       ),
       body : Center(
-          child : FlatButton(
+          child : RaisedButton.icon(
             onPressed: () {},
-            child: Text('click me'),
-            color: Colors.blueGrey[600],
+            icon: Icon(
+              Icons.mail
+            ),
+            label: Text('mail me'),
+            color: Colors.red,
           ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -24,6 +27,18 @@ void main()
   ),
   );
 }
+
+/// This code is used to add the button
+ 
+/*
+body : Center(
+          child : FlatButton(
+            onPressed: () {},
+            child: Text('click me'),
+            color: Colors.blueGrey[600],
+          ),
+      ),
+*/
 
 
 ///This code is for to add the icon
