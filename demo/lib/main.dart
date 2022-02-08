@@ -10,10 +10,10 @@ void main()
         backgroundColor : Colors.red[600],
       ),
       body : Center(
-          child : Icon(
-            Icons.airport_shuttle,
-            color: Colors.lightBlueAccent,
-            size: 70.0,
+          child : FlatButton(
+            onPressed: () {},
+            child: Text('click me'),
+            color: Colors.blueGrey[600],
           ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -25,6 +25,18 @@ void main()
   );
 }
 
+
+///This code is for to add the icon
+
+/*
+body : Center(
+          child : Icon(
+            Icons.airport_shuttle,
+            color: Colors.lightBlueAccent,
+            size: 70.0,
+          ),
+      ),
+*/ 
 
 /*
 body : Center(
