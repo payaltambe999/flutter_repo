@@ -7,7 +7,7 @@ void main()
       appBar : AppBar(
         title : Text("Hello Word"),
         centerTitle : true,
-        backgroundColor : Colors.red[600],
+        backgroundColor : Colors.blue[600],
       ),
       body : Center(
           child : RaisedButton.icon(
